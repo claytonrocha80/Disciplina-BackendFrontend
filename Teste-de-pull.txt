@@ -1,1 +1,1 @@
-Esse é um teste do comando git pull
+Esse é um teste do comando git pull.
