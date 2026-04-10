@@ -27,16 +27,14 @@
     "axios": "^1.2.2",
     "bootstrap": "^5.2.3",
     "fullscreen": "^1.1.1",
-    "http": "^0.0.1-security",
     "jquery": "^3.6.3",
-    "package": "^1.0.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.0.5",
-    "@angular/cli": "^15.2.11",
+    "@angular-devkit/build-angular": "^21.2.7",
+    "@angular/cli": "^21.2.7",
     "@angular/compiler-cli": "^21.2.8",
     "@types/axios": "^0.14.0",
     "@types/jasmine": "~4.3.0",
