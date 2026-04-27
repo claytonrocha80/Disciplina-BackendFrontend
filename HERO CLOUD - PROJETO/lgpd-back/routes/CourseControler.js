@@ -4,8 +4,7 @@ let router = express.Router();
 import courseService from "../services/CourseService.js";
 
 router.post("/addCourse", async function (req, res) {
-  const courseModel = {
-    name: req.body.name,
+  const courseModel = {    name: req.body.name,
   };
   const course = await courseService.saveCourse(courseModel);
   return res.status(200).json(course);
