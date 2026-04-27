@@ -1,7 +1,5 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../utils/database.js";
-import { FOREIGNKEYS } from "sequelize/lib/query-types";
-import { underscoredIf } from "sequelize/lib/utils";
 
 const Course = sequelize.define(
   "courses",

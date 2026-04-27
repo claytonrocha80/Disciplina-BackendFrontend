@@ -1,10 +1,10 @@
-import { express } from "express";
+import express from "express";
 let router = express.Router();
 
 import Usercontroller from "./UserController.js";
 import TeacherController from "./TeacherController.js";
 import CourseControler from "./CourseControler.js";
-import EvaluationController from "./EvaluationController.js";
+import EvaluationControler from "./EvaluationControler.js";
 
 router.get("/", (req, res) => {
   console.log("Oi!");
@@ -14,6 +14,6 @@ router.get("/", (req, res) => {
 router.use("/", Usercontroller);
 router.use("/", TeacherController);
 router.use("/", CourseControler);
-router.use("/", EvaluationController);
+router.use("/", EvaluationControler);
 
 export default router;

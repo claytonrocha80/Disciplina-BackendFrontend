@@ -1,19 +1,19 @@
-import { express } from "express";
-import { pkg } from "body-parser";
-import { router } from "./routes/Router.js";
+import express from "express";
+import bodyParser from "body-parser";
+import router from "./routes/Router.js";
 
-import { sequelize } from "./utils/database.js";
-import { association } from "./models/association.js";
+import sequelize from "./utils/database.js";
+import association from "./models/Associations.js";
 
 const app = express();
-const { json, urlencoded } = pkg;
 
-app.use(json());
-app.use(urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(router);
 
 (async () => {
   try {
-    association.association();
+    association.associations();
     await sequelize.sync();
     app.listen(3000, function () {
       console.log("Listenging from 3000");

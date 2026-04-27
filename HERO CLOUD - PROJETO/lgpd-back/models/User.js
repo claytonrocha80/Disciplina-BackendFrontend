@@ -1,6 +1,5 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../utils/database.js";
-import { underscoredIf } from "sequelize/lib/utils";
 
 const User = sequelize.define(
   "users",
