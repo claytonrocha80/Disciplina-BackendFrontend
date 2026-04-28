@@ -14,6 +14,7 @@ export const GENDERS = [
 ];
 @Component({
   selector: 'app-user-form',
+  standalone: false,
   templateUrl: './user-form.component.html',
   styleUrls: ['./user-form.component.scss']
 })

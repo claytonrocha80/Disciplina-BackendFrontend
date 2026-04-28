@@ -8,6 +8,7 @@ import { SharedService } from 'src/app/shared/shared.service';
 import { CourseService } from '../course.service';
 @Component({
   selector: 'app-course-form',
+  standalone: false,
   templateUrl: './course-form.component.html',
   styleUrls: ['./course-form.component.scss']
 })

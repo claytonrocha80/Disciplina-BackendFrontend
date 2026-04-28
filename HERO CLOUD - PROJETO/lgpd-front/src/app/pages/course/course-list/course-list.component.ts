@@ -5,6 +5,7 @@ import { CourseService } from '../course.service';
 
 @Component({
   selector: 'app-course-list',
+  standalone: false,
   templateUrl: './course-list.component.html',
   styleUrls: ['./course-list.component.scss']
 })
