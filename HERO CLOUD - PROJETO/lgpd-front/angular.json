@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lgpd-front:build:production"
+              "buildTarget": "lgpd-front:build"
             },
             "development": {
-              "browserTarget": "lgpd-front:build:development"
+              "buildTarget": "lgpd-front:build"
             }
           },
           "defaultConfiguration": "development"
