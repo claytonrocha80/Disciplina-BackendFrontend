@@ -5,6 +5,7 @@ import { SharedService } from 'src/app/shared/shared.service';
 import { TeacherService } from '../teacher.service';
 @Component({
   selector: 'app-teacher-list',
+  standalone: false,
   templateUrl: './teacher-list.component.html',
   styleUrls: ['./teacher-list.component.scss']
 })

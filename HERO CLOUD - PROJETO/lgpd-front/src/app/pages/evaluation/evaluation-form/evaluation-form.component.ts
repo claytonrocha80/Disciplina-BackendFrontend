@@ -8,6 +8,7 @@ import { SharedService } from 'src/app/shared/shared.service';
 import { EvaluationService } from '../evaluation.service';
 @Component({
   selector: 'app-evaluation-form',
+  standalone: false,
   templateUrl: './evaluation-form.component.html',
   styleUrls: ['./evaluation-form.component.scss']
 })

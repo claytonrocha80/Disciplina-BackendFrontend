@@ -6,6 +6,7 @@ import { EvaluationService } from '../evaluation.service';
 
 @Component({
   selector: 'app-evaluation-list',
+  standalone: false,
   templateUrl: './evaluation-list.component.html',
   styleUrls: ['./evaluation-list.component.scss']
 })
