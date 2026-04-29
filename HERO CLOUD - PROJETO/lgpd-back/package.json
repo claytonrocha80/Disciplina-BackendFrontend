@@ -12,20 +12,20 @@
   "author": "clayton rocha",
   "license": "ISC",
   "dependencies": {
+    "@angular/animations": "^15.0.0",
+    "@angular/common": "^15.0.0",
+    "@angular/compiler": "^15.0.0",
+    "@angular/core": "^15.0.0",
     "express": "^5.2.1",
     "nvm": "^0.0.4",
     "pg": "^8.20.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.8",
-    "@angular/animations": "^15.0.0",
-    "@angular/common": "^15.0.0",
-    "@angular/compiler": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "sequelize": "^6.37.8"
   },
   "devDependencies": {
-    "@types/sequelize": "^4.28.20",
-     "@angular-devkit/build-angular": "^15.0.0",
-  "@angular/cli": "^15.0.0",
-  "@angular/compiler-cli": "^15.0.0"
+    "@angular-devkit/build-angular": "^15.0.0",
+    "@angular/cli": "^15.0.0",
+    "@angular/compiler-cli": "^15.0.0",
+    "@types/sequelize": "^4.28.20"
   }
 }
